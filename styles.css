@@ -1,3 +1,56 @@
 *{
-    
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+/* :root  */
+:root{
+    --green: #18534F;
+    --lightgreen: #226D68;
+    --white: #ECF8F6;
+    --yellow: #FEEAA1;
+    --orange: #D6955B;
+}
+/* body */
+body{
+    background-color: #18534F;
+
+    font-family: Helvetica, sans-serif;
+}
+
+
+/* NavBar */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px; 
+}
+#header--logo{
+    padding-left: 100px;
+}
+nav{
+    padding-top: 10px;
+    padding-right: 200px;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px;
+}
+nav a:hover{
+    color:#FEEAA1;
+}
+
+/* main */
+#main--introduction{
+    margin: 50px;
+}
+
+.cta{
+    color: white;
+    background-color: #18534F;
+    padding: 10px 50px 10px;
+    border: solid #D6955B 2px;
+    border-radius: 15px;
+    margin-top: 20px;
 }
